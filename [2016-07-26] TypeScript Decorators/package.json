@@ -1,0 +1,19 @@
+{
+  "name": "typescript-decorators",
+  "version": "1.0.0",
+  "description": "TypeScript Decorators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "decorator"
+  ],
+  "author": "Hasan Karahan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6"
+  }
+}
