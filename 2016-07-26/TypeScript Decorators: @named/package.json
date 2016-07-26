@@ -4,7 +4,10 @@
   "description": "TypeScript Decorators",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist",
+    "make": "node ./node_modules/gulp/bin/gulp.js",
+    "start": "node ./dist/main.js",
+    "test": "exit 0"
   },
   "keywords": [
     "typescript",

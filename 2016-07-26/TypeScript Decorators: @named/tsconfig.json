@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "target": "es5"
+    },
+    "files": [
+        "src/main.ts",
+        "src/named.ts"
+    ]
+}
