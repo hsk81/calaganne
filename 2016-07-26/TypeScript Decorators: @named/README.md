@@ -8,7 +8,7 @@ I was particularly interested in class methods: However, I figured out rather so
 
 So, the easiest approach I imagined was to simply attach any name of my choice to a class of mine using decorators:
 
-```javascript
+```typescript
 00 import {named} from "./named";
 01 
 02 @named('App')
@@ -38,7 +38,7 @@ As you see, it works: Both the instance and static `toString` methods manage to 
 
 Let’s check the `named.ts` implementation: It’s rather straight forward, since the supplied named string is attached as the `_named` instance and static member directly to the `object`.
 
-```javascript
+```typescript
 00 export function named(name:string) {
 01     return function (object:any) {
 02         if (object.prototype._named === undefined) {
