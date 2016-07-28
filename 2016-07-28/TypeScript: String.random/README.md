@@ -142,3 +142,4 @@ We conclude that an original uniform distribution might have caused the observed
 [5]: https://en.wikipedia.org/wiki/Histogram
 [6]: https://en.wikipedia.org/wiki/Normal_distribution
 [7]: https://3.bp.blogspot.com/-hvMViBY_fMg/V5ngv183mpI/AAAAAAAAAUo/oTORaAFRlQctvriE2W---e76sUYJtth0ACLcB/s640/app.png
+

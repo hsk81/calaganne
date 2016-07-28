@@ -10,3 +10,4 @@ class App {
 
 var app = new App();
 app.logRandom(65536);
+
