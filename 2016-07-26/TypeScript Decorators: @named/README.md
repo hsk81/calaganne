@@ -53,7 +53,7 @@ Let’s check the `named.ts` implementation: It’s rather straight forward, sin
 11 export default named;
 ```
 
-The source code of this example is available on [GitHub.com][3]:
+The source code of this example is available on [GitHub.com][4]:
 ```bash
 git clone git@github.com:hsk81/calaganne calaganne.git
 cd 'calaganne.git/2016-07-26/TypeScript Decorators: @named'/
