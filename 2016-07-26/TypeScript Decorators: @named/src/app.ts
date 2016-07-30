@@ -11,6 +11,6 @@ class App {
     }
 }
 
-var app = new App();
+let app = new App();
 console.log('app.toString:', app.toString());
 console.log('App.toString:', App.toString());
