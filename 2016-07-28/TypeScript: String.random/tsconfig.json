@@ -1,10 +1,10 @@
 {
-    "compilerOptions": {
-        "noImplicitAny": false,
-        "target": "es5"
-    },
-    "files": [
-        "src/app.ts",
-        "src/random.ts"
-    ]
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "target": "es3"
+  },
+  "files": [
+    "src/app.ts",
+    "src/random.ts"
+  ]
 }

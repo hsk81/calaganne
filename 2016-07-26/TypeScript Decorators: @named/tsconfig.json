@@ -1,11 +1,11 @@
 {
-    "compilerOptions": {
-        "experimentalDecorators": true,
-        "noImplicitAny": false,
-        "target": "es5"
-    },
-    "files": [
-        "src/app.ts",
-        "src/named.ts"
-    ]
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "target": "es3"
+  },
+  "files": [
+    "src/app.ts",
+    "src/named.ts"
+  ]
 }

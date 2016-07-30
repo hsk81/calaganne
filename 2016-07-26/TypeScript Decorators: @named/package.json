@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "make": "node ./node_modules/gulp/bin/gulp.js",
-    "start": "node ./dist/main.js",
+    "start": "node ./dist/app.js",
     "test": "exit 0"
   },
   "keywords": [
