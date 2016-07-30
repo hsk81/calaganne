@@ -76,15 +76,15 @@ class App {
     }
 }
 
-var app = new App();
+let app = new App();
 app.logRandom(65536);
 ```
 
-This will create create a huge list of binary random strings: But how do we determine if it is *uniform*? Creating directly a [histogram][5] might be an approach, but we might not have enough data to gain significant insight.
+This will create a huge list of binary random strings: But how do we determine if it is *uniform*? Creating directly a [histogram][5] might be an approach, but we might not have enough data to gain significant insight.
 
-Why is that? The total number of binary strings of size $16$ -- which is $2^{16}=65536$ -- happens to be the number of samples we have in our data. So we would expect to see each binary string on average only *once*: Counting each string once, and creating a corresponding histogram might confirm that we might not have a very skewed distribution, but that's pretty much it.
+Why is that? The total number of binary strings of size $16$ --- which is $2^{16}=65536$ --- happens to be the number of samples we have in our data. So we would expect to see each binary string on average only *once*: Counting each string once, and creating a corresponding histogram might confirm that we might not have a very skewed distribution, but that's pretty much it.
 
-However, for uniformly distributed binary strings the following property should hold: *The number of different characters between any two strings should follow a [normal distribution][6]*. Let's check this with a small Python script:
+However, for uniformly distributed binary strings the following property should hold as well: *The number of different characters between any two strings should follow a [normal distribution][6]*. Let's check this with a small Python script:
 
 ```python
 #!/usr/bin/env python
@@ -142,4 +142,3 @@ We conclude that an original uniform distribution might have caused the observed
 [5]: https://en.wikipedia.org/wiki/Histogram
 [6]: https://en.wikipedia.org/wiki/Normal_distribution
 [7]: https://3.bp.blogspot.com/-hvMViBY_fMg/V5ngv183mpI/AAAAAAAAAUo/oTORaAFRlQctvriE2W---e76sUYJtth0ACLcB/s640/app.png
-
