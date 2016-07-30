@@ -3,22 +3,22 @@
 Today, I'd like to discuss and analyze a function I'm using quite often during my daily work with [TypeScript][1]. It's about generating random strings, and here is the code:
 
 ```typescript
-00 interface StringConstructor {
-01     random(length?:number, range?:number):string;
-02 }
-03 
-04 String.random = function (length:number, range:number = 36):string {
-05 
-06     length = Math.floor(length);
-07     range = Math.floor(range);
-08 
-09     let p_0 = Math.pow(range, length),
-10         p_1 = range * p_0;
-11 
-12     return (length > 0) 
-13         ? Math.floor(p_1 - p_0 * Math.random()).toString(range).slice(1)
-14         : '';
-15 };
+interface StringConstructor {
+    random(length?:number, range?:number):string;
+}
+
+String.random = function (length:number, range:number = 36):string {
+
+    length = Math.floor(length);
+    range = Math.floor(range);
+
+    let p_0 = Math.pow(range, length),
+        p_1 = range * p_0;
+
+    return (length > 0) 
+        ? Math.floor(p_1 - p_0 * Math.random()).toString(range).slice(1)
+        : '';
+};
 ```
 
 So, I attach the `random` function to the `String` interface: Yes, normative pundits will point out now that I should not overwrite or extend any existing vanilla constructions, but since I use random strings so often, I decided to commit this sin in the name of convenience!
