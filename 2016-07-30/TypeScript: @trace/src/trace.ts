@@ -89,4 +89,4 @@ function _traceable(flag:boolean):Function {
     }
 }
 
-export default _trace;
+export default trace;
