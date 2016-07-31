@@ -86,7 +86,7 @@ function _traceable(flag:boolean):Function {
                 }
             }
         }
-    }
+    };
 }
 
 export default trace;
