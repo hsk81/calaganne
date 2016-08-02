@@ -1,7 +1,7 @@
 {
-  "name": "typescript-decorators",
+  "name": "typescript-decorators-named",
   "version": "1.0.0",
-  "description": "TypeScript Decorators",
+  "description": "TypeScript Decorators: @named",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "typescript",
-    "decorator"
+    "decorator",
+    "named"
   ],
   "author": "Hasan Karahan",
   "license": "ISC",

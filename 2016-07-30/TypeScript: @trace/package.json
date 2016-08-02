@@ -1,7 +1,7 @@
 {
-  "name": "typescript-decorators",
+  "name": "typescript-decorators-trace",
   "version": "1.0.0",
-  "description": "TypeScript Decorators",
+  "description": "TypeScript Decorators: @trace",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -11,7 +11,8 @@
   },
   "keywords": [
     "typescript",
-    "decorator"
+    "decorator",
+    "trace"
   ],
   "author": "Hasan Karahan",
   "license": "ISC",
