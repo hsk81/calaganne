@@ -23,7 +23,7 @@ String.random = function (length:number, range:number = 36):string {
 
 So, I attach the `random` function to the `String` interface: Yes, normative pundits will point out now that I should not overwrite or extend any existing vanilla constructions, but since I use random strings so often, I decided to commit this sin in the name of convenience!
 
-Further, since the result of `random` is a string, there was no better place for me than to attach the former to the latter. If you cannot follow my logic, so be my guest and put the function where ever you deem it best.
+Further, since the result of `random` is a string, there was no better place for me than to attach the former to the latter. If you cannot follow my logic, so be my guest and put the function where ever you deem it's best.
 
 Alright, after having addressed the dogmatic computer scientists, it's time to have a look how we use `String.random`:
 
