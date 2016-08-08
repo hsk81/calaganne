@@ -180,7 +180,7 @@ As hinted above, we shall be able to write `@trace` or `@trace(true|false)` (and
 
 ## Decorating `static` methods
 
-Another point, which is worth of mentioning, is the fact that `static` methods can be traced as well:
+Another point, which is worth of mentioning, is the fact that `static` methods can automatically (or manually via `@traceable(true)`) be traced as well:
 ```
 @trace
 class App {
@@ -205,7 +205,7 @@ class App {
 }
 ```
 
-As far as I know, so far Typescript does not allow to apply [decorators][3] separately to a `getter` and `setter` accessor: You should apply a particular decorator to the first accessor within the class' declaration. It is then automatically be applied to the corresponding partner accessor as well (if such a partner exists).
+As far as I know, so far Typescript does not allow to apply [decorators][3] separately to a `getter` and `setter` accessor: You should apply a particular decorator to the first accessor within the class' declaration. It is then automatically applied to the corresponding partner accessor as well (if such a partner exists).
 
 [1]: http://www.typescriptlang.org/docs/handbook/classes.html
 [2]: http://www.typescriptlang.org/docs/handbook/functions.html
